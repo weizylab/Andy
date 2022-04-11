@@ -86,14 +86,17 @@ header ul li a:hover{
 	margin-top: 20px;
 	padding: 15px 30px;
 	background: cornsilk;
-	color: black;
+	color: coral;
 	font-size:1.2em;
 	border-radius: 40px;
 	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 1px;
 }
-
+.content .textBox a:hover{
+	background: black;
+	color: cornsilk;
+}
 .sci{
 	position: absolute;
 	bottom: 250px;
