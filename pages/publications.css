@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border_box;
+	font-family: "Nunito", sans-serif;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 85%;
+	padding: 40px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+
+header .logo{
+	position:relative;
+	color: cornsilk;
+	display: inline-block;
+	font-size: 2em;
+	text-decoration:none;
+	font-weight:800;
+}
+
+header ul{
+	position: relative;
+	display:flex;
+}
+
+header ul li{
+	list-style: none;
+}
+
+header ul li a{
+	display: inline-block;
+	color: cornsilk;
+	font-weight: 600;
+	font-size: 1.1em;
+	margin-left: 10px;
+	padding: 8px 18px;
+	text-decoration: none;
+	user-select: none;
+}
+header ul li a.active,
+header ul li a:hover{
+	background: cornsilk;
+	color: black;
+	border-radius: 30px;
+}
+.content{
+	position: relative;
+}
+.content .textBox{
+	position: relative;
+	max-width: 1000px;
+}
+
+.content .textBox p{
+	font-size: 2.2em;
+	color: cornsilk;
+}
+.content .textBox a{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 15px ;
+	background: cornsilk;
+	color: coral;
+	font-size:1.2em;
+	border-radius: 30px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	margin-right: 26px;
+}
+.content .textBox a:hover{
+	background: black;
+	color: cornsilk;
+	border-radius: 30px;
+}
+
+/* .bottom{ */
+	/* position: absolute; */
+	/* top: 60px; */
+	/* display: flex; */
+	/* align-items: center; */
+	/* font-size: 20px; */
+	/* left: 0px; */
+	/* float: left; */
+/* } */
+/* .bottom li{ */
+	/* list-style: none; */
+/* } */
+
+/* .bottom li a{ */
+	/* position:relative; */
+	/* margin-right: 30px; */
+	/* align-items: center; */
+/* } */
+/* .bottom:hover > li { */
+  /* opacity: 0.5; */
+/* } */
+
+/* .bottom:hover > li:hover { */
+  /* opacity: 1; */
+/* } */
+/* .fa{ */
+	/* padding: 15px; */
+	/* width: 20px; */
+	/* height: 20px; */
+	/* text-align: center; */
+	/* text-decoration: none; */
+	/* border-radius: 30px; */
+	/* display: inline-block; */
+	/* position:relative; */
+	/* margin-right: 16px; */
+	/* align-items: center; */
+	/* vertical-align: middle; */
+/* } */
+/* .fa-download { */
+	/* background: cornsilk; */
+	/* color: coral; */
+/* } */
+/* .fa-info-circle { */
+	/* background: cornsilk; */
+	/* color: coral; */
+/* } */
