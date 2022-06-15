@@ -1,2 +1,2 @@
-# zhiyuanwei.github.io
-test website
+# Weizy Website
+for test only
